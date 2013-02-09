@@ -1,0 +1,6 @@
+lein: lein2
+script: lein2 midje
+jdk:
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
