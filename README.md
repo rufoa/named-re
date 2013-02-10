@@ -5,6 +5,8 @@ named-re adds support for **named capturing groups** to regexes in clojure, even
 
 It does this by modifying the `clojure.core/re-` functions, the `clojure.string/replace` function, and the `#"regex"` reader macro.
 
+[![Build Status](https://travis-ci.org/rufoa/named-re.png?branch=master)](https://travis-ci.org/rufoa/named-re)
+
 ## Installation ##
 
 named-re is in Clojars. To use it in a Leiningen project, add it to your project.clj dependencies:
@@ -26,7 +28,7 @@ Named groups are denoted by `(?<groupname>...)`. Named backreferences use `\k<gr
 
 named-re augments the normal `re-` functions in `clojure.core`.
 
-If a pattern contains any named groups, then the match result will be a map rather than a vector. The keys in the map are the names of the groups. The `:0` entry is the entire match (like the 0^th item in a match vector).
+If a pattern contains any named groups, then the match result will be a map rather than a vector. The keys in the map are the names of the groups. The `:0` entry is the entire match (like the 0th item in a match vector).
 
 For example:
 
