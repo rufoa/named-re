@@ -78,6 +78,6 @@ named-re does not use `java.util.regex.Pattern` and `java.util.regex.Matcher` ob
 
 ## License
 
-Copyright © 2013 @rufoa
+Copyright © 2013 [rufoa](https://github.com/rufoa)
 
 Distributed under the Eclipse Public License, the same as Clojure.
